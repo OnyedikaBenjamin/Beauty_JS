@@ -1,0 +1,57 @@
+.header {
+    width: 93%;
+    margin: auto;
+    background-color: #f5ba13;
+    padding: 0.6% 3%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "McLaren", cursive;
+}
+  
+.header h1 {
+    color: #fff;
+    font-weight: 200;
+}
+.header input{
+    width: 100%;
+}
+.header input{
+    border: none;
+    border-radius: 20px;
+    padding: 9px 9px;
+    width: 200px;
+    outline: none;
+    font-size: 0.8rem;
+}
+.header button{
+    border-color: #f5ba13;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: #f5ba13;
+}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media (max-width: 500px) {
+    .header h1, h2{
+        font-size: 1rem;
+    }
+    .header button{
+      width: 100px;
+      padding: 10px;
+      font-size: 0.6rem;
+      margin-bottom: 5px;
+    }
+}

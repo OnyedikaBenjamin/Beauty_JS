@@ -1,0 +1,27 @@
+{#{% load static %}#}
+{##}
+{#<h1>Welcome to our store!</h1>#}
+{#<!doctype html>#}
+{#<html>#}
+{#    <head>#}
+{#        <link rel="stylesheet" href="{% static "static/p_list.css.css" %}">#}
+{#        <title>Product List</title>#}
+{#    </head>#}
+{#    <body>#}
+{#        <h1>Product List</h1>#}
+{#        {% for product in products %}#}
+{#            <h2>{{ product.name }}</h2>#}
+{#            <p>{{ product.description }}</p>#}
+{#            <p>Price: ${{ product.price }}</p>#}
+{#        {% endfor %}#}
+{#        {% if products %}#}
+{#            <ul>#}
+{#                {% for product in products %}#}
+{#                    <li>{{ product.title }}</li>#}
+{#                {% endfor %}#}
+{#            </ul>#}
+{#        {% else %}#}
+{#            <p>No products found.</p>#}
+{#        {% endif %}#}
+{#    </body>#}
+{#</html>#}

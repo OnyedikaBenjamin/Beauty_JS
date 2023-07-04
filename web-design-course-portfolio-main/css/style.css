@@ -1,0 +1,221 @@
+/*  
+
+    Theme: Personal Portfolio;
+    Version: 1.0;
+    Author: Vijay Thapa;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.btn{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+}
+
+.btn:hover{
+    
+    background-color: white;
+    color: blue;
+}
+
+.mb-5{
+    margin-bottom: 5%;
+}
+
+.col-2{
+    width: 49%;
+    float: left;
+}
+
+.col-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.col-4{
+    width: 20%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Navbar */
+.logo{
+    width: 20%;
+    float: left;
+    font-weight: bold;
+}
+
+.menu{
+    width: 70%;
+    float: right;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 2%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.menu ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* CSS for About Section */
+.about{
+    margin-bottom: 5%;
+}
+
+.about-title{
+    margin-bottom: 3%;
+}
+
+.about-subtitle{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 8%;
+}
+
+.about-description{
+    font-size: 1.2em;
+    line-height: 30px;
+    margin-bottom: 10%;
+}
+
+/* CSS for Projects Secion */
+.projects{
+    margin-bottom: 5%;
+}
+
+.projects a{
+    color: white;
+    font-weight: bold;
+}
+.projects a:hover{
+    color: lightblue;
+}
+
+.project-box{
+    position: relative;
+}
+
+.project-title{
+    position: absolute;
+    top: 80%;
+    padding: 5%;
+}
+
+/* CSS for SKILL */
+.skills{
+    margin-bottom: 5%;
+}
+
+.skill-box{
+    margin-bottom: 3%;
+}
+
+.skill-title{
+    font-size: 1.3em;
+    line-height: 50px;
+}
+
+.skill-meter{
+    border: 1px solid blue;
+    width: 90%;
+    float: right;
+}
+
+
+/* CSS for Blogs */
+.blog{
+    margin-bottom: 5%;
+}
+
+.blog-title{
+    padding: 5% 2%;
+}
+
+/* CSS for Footer */
+
+footer{
+    padding-bottom: 5%;
+}
+
+footer ul{
+    list-style-type: none;
+
+}
+
+footer ul li{
+    display: inline;
+    padding: 2%;
+}
+
+/* CSS for Mobile devices */
+@media only screen and (max-width:768px) {
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .menu{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .col-2, .col-4, .col-3{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .skill-meter{
+        width: 100%;
+    }
+
+
+}
+

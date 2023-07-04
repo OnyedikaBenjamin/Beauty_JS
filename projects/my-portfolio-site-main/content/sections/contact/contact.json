@@ -1,0 +1,13 @@
+{
+  "name": "Isah Jacob",
+  "email": "isahjacob0@gmail.com",
+  "description": "For a cup of coffee or collaboration, you can reach out to me at anytime.",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail", "Twitter"],
+    "showIcons": true
+  }
+}

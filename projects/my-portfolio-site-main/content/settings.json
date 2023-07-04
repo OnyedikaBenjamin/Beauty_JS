@@ -1,0 +1,44 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://github.com/Enecode/react-portfolio-website/",
+    "title": "Isah Jacob",
+    "titleTemplate": "%s · Jacob'portfolio",
+    "description": "A portfolio website built with Reactjs",
+    "author": "Isah Jacob",
+    "avatar": "../content/images/jacobisah.png",
+    "bio": "Software engineer and technical writer",
+    "social": {
+      "github": "https://github.com/enecode",
+      "medium": "https://medium.com/@isahjacob",
+      "linkedin": "https://www.linkedin.com/in/isahejacob/",
+      "twitter": "https://twitter.com/IsahJakub",
+      "mail": "mailto:isahjacob0@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "IJ" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Blog", "url": "https://medium.com/@isahjacob" },
+        { "label": "Projects", "url": "/#project" },
+        { "label": "Github", "url": "https://github.com/enecode" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/resume.pdf"
+      },
+      "footer": [
+        { "label": "Coded By Jacob © 2022", "url": "" },
+        { "label": "", "url": "" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

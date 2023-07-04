@@ -1,0 +1,14 @@
+body {
+    background-image: url('asset/pen.jpg');
+    background-color: #dca808;
+    background-position: contain contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+h1{
+    font-family: "McLaren", cursive;
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<ul>
+    <img src="{{ image }}"  alt=""/>
+    {% for product in products %}
+        <li>{{ product.title }}</li>
+        <li>{{ product.description }}</li>
+        <li>N{{ product.unit_price }}</li>
+    {% endfor %}
+
+</ul>
+
+
+
+
+
+</body>
+</html>
+
+
+{#<body>#}
+{#  <header>#}
+{#    <h1>Welcome to My Store!</h1>#}
+{#  </header>#}
+{#  <nav>#}
+{#    <ul>#}
+{#      <li><a href="#featured">Featured Products</a></li>#}
+{#      <li><a href="#new">New Arrivals</a></li>#}
+{#      <li><a href="#sale">Sale Items</a></li>#}
+{#      <li><a href="{% url 'ecommerce_app:category_detail' %}">Categories</a></li>#}
+{#    </ul>#}
+{#  </nav>#}
+{#  <main>#}
+{#    <section id="featured">#}
+{#      <h2>Featured Products</h2>#}
+{##}
+{#      <ul>#}
+{#        {% for product in featured_products %}#}
+{#            <div class="p-10">#}
+{#                <img src="{{ product.image }}" width="100%" class="rounded images featured-image-list" alt="{{product.title}}">#}
+{#            </div>#}
+{#          <li>#}
+{#            <h3>{{ product.name }}</h3>#}
+{#            <img src="{{ product.image.url }}" alt="{{ product.name }}">#}
+{#            <p>{{ product.description }}</p>#}
+{#            <p>Price: ${{ product.price }}</p>#}
+{#            <button>Add to Cart</button>#}
+{#          </li>#}
+{#        {% endfor %}#}
+{#      </ul>#}
+{#    </section>#}
+{#    <section id="new">#}
+{#      <h2>New Arrivals</h2>#}
+{#      <!-- Similar layout as the featured products section -->#}
+{#    </section>#}
+{#    <section id="sale">#}
+{#      <h2>Sale Items</h2>#}
+{#      <!-- Similar layout as the featured products section -->#}
+{#    </section>#}
+{#    <section id="categories">#}
+{#      <h2>Categories</h2>#}
+{#      <ul>#}
+{#        {% for category in categories %}#}
+{#          <li><a href="#{{ category.name|slugify }}">{{ category.name }}</a></li>#}
+{#        {% endfor %}#}
+{#      </ul>#}
+{#      {% for category in categories %}#}
+{#        <section id="{{ category.name|slugify }}">#}
+{#          <h3>{{ category.name }}</h3>#}
+{#          <ul>#}
+{#            {% for product in category.products.all %}#}
+{#              <li>#}
+{#                <h4>{{ product.name }}</h4>#}
+{#                <img src="{{ product.image.url }}" alt="{{ product.name }}">#}
+{#                <p>{{ product.description }}</p>#}
+{#                <p>Price: ${{ product.price }}</p>#}
+{#                <button>Add to Cart</button>#}
+{#              </li>#}
+{#            {% endfor %}#}
+{#          </ul>#}
+{#        </section>#}
+{#      {% endfor %}#}
+{#    </section>#}
+{#  </main>#}
+{#  <footer>#}
+{#    <p>Copyright My Store</p>#}
+{#  </footer>#}
+{#</body>#}
+{#</html>#}

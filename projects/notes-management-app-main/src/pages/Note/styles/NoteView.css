@@ -1,0 +1,40 @@
+
+.editor{
+    position: relative;
+    width: 50%;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    color: #000;
+}
+
+.note-view .head{
+    text-align: center;
+}
+
+.note-view button{
+    margin: 20px auto;
+    color: #f5ba13;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .note-view button{
+        font-size: 0.8rem;
+    }
+    .editor{
+        width: 90%;
+    }
+    .editor p{
+        font-size: 0.8rem;
+    }
+}

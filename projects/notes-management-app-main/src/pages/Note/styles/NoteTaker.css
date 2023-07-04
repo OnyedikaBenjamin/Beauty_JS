@@ -1,0 +1,46 @@
+
+.note-form {
+    position: relative;
+    width: 50%;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  .note-form input,
+  .note-form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+  }
+  .note-form textarea{
+    height: 400px;
+  }
+  .note-form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+
+  @media (max-width:500px){
+    .note-form{
+      width: 80%;
+    }
+    .note-form input,
+    .note-form textarea{
+      font-size: 0.9rem;
+    }
+  }

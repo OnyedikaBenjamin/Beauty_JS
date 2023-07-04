@@ -1,0 +1,95 @@
+{
+  "interests": [
+    {
+      "label": "Python",
+      "image": {
+        "src": "../../images/python.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Django",
+      "image": {
+        "src": "../../images/django.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Javascript",
+      "image": {
+        "src": "../../images/js.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Reactjs",
+      "image": {
+        "src": "../../images/react.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "SQL",
+      "image": {
+        "src": "../../images/sql.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Postman",
+      "image": {
+        "src": "../../images/postman.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "HTML and CSS",
+      "image": {
+        "src": "../../images/htm-css.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Git and Github",
+      "image": {
+        "src": "../../images/git-vs-github.png",
+        "alt": ""
+      }
+    },
+
+    {
+      "label": "VS Code and Pycharm",
+      "image": {
+        "src": "../../images/vscodepycharm.jpg",
+        "alt": ""
+      }
+    },
+
+    {
+      "label": "Chrome DevTools",
+      "image": {
+        "src": "../../images/chrome-dev-tools.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Bootstrap",
+      "image": {
+        "src": "../../images/Bootstrap_logo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Slack",
+      "image": {
+        "src": "../../images/slack-logo-icon.png",
+        "alt": ""
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
+}

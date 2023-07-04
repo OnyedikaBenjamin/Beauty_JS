@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "Django Web App",
+      "title": "Blog App",
+      "description": "The Blog App includes, my home page includes information about myself, a project, a quote, contact information, and a footer. The blog page lists all of the blog posts, along with their title, publication date, author, and summary.",
+      "tags": ["Leaning", "Building"],
+      "image": {
+        "src": "../../images/blogproject.jpeg",
+        "alt": "Quick Setup",
+        "linkTo": "https://github.com/Enecode/myblog"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/Enecode/myblog"
+        },
+        {
+          "type": "external",
+          "url": "https://github.com/Enecode/myblog"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Django Web App",
+      "title": "Learning Log App",
+      "description": "The Learning Log app is an online journaling application that allows users to record their learning on specific subjects. Users can keep track of the subjects they are interested in and write entries in their journals as they learn more about each one. Users are required to log in or register on the Learning Log home page after reading the site's description. A user has the ability to add new subjects, edit existing ones, and add new entries.",
+      "tags": ["Building", "Learning"],
+      "image": {
+        "src": "../../images/learningLog.png",
+        "alt": ""
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/Enecode/learning-log"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "React Web App",
+      "title": "Meme Generator",
+      "description": "Meme generator built with Rectjs The meme is fetched from an API. Users can enter text that resonates with any image, depending on what they want.",
+      "tags": ["Building", "Learning"],
+      "image": {
+        "src": "../../images/meme.png",
+        "alt": ""
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/Enecode/meme-generator-react/tree/main"
+        },
+        {
+          "type": "external",
+          "url": "https://enecode.github.io/meme-generator-react/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "React Web App",
+      "title": "Digital Profile",
+      "description": "The digital profile show cases my job title, skills, hobbies and interest.",
+      "tags": ["Building", "Learning"],
+      "image": {
+        "src": "../../images/digital--profile.png",
+        "alt": ""
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/Enecode/digital-profile/tree/main"
+        },
+        {
+          "type": "external",
+          "url": "https://enecode.github.io/digital-profile/"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "Visit on Github",
+    "url": "https://github.com/Enecode/learning-log"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "intro": "Hello",
+  "heroPhoto": {
+    "src": "../../images/lego-dummy.png",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm Isah Jacob",
+  "subtitle": {
+    "prefix": "Software Engineer and  ",
+    "highlight": "Technical Writer",
+    "suffix": "."
+  },
+  "description": "Let's contribute our quater in changing the world through tech and innovations",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail", "Twitter"],
+    "showIcons": true
+  }
+}

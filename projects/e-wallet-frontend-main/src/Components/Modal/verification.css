@@ -1,0 +1,34 @@
+
+
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    position: absolute;
+    width: 844px;
+    height: 1117px;
+    left: 884px;
+    top: 0px;
+
+    background: rgba(37, 32, 41, 0.4);
+  }
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    position: absolute;
+    width: 844px;
+    height: 1117px;
+    left: 884px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+  }

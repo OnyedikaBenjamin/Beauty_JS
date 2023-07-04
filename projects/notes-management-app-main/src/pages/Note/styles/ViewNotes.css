@@ -1,0 +1,35 @@
+.view {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    gap: 10px;
+    margin: 40px auto;
+    justify-content: center;
+}
+
+.view-div .head{
+    text-align: center;
+}
+
+.view-div button{
+    margin: 20px 0;
+    color: #f5ba13;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+@media (max-width: 600px) {
+    .view{
+        flex-direction: column;
+    }
+    .view-div .back{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    {% extends 'ecommerce_app/base.html' %}
+<ul>
+    {% for category in categories %}
+        <li>{{ category.featured_product }}</li>
+        <li>{{ category.description }}</li>
+        <li>N{{ category.unit_price }}</li>
+    {% endfor %}
+
+</ul>
+
+
+{#{% block content %}#}
+{#    <h1>{{ category.name }}</h1>#}
+{#    <p>{{ category.description }}</p>#}
+{#{% endblock %}#}
+
+</body>
+</html>

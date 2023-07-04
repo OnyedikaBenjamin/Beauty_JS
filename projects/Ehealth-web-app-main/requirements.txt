@@ -1,0 +1,15 @@
+asgiref==3.6.0
+certifi==2022.12.7
+charset-normalizer==3.1.0
+Django==4.2
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+idna==3.4
+paystack==1.5.0
+paystackapi==2.1.0
+PyJWT==2.6.0
+pytz==2023.3
+requests==2.28.2
+simplejson==3.19.1
+sqlparse==0.4.3
+urllib3==1.26.15

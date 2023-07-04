@@ -1,0 +1,37 @@
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    background-color:  #fff;
+    margin: 10% auto;
+    border-radius: 20px;
+    border: none;
+}
+.modal-p{
+    color: #000;
+}
+.modal-body button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #f5ba13;
+}
+
+@media (max-width: 600px){
+    .modal-body{
+        width: 50%;
+        font-size: 0.7rem;
+        height: 150px;
+    }
+    .modal-body button{
+        width: 80px;
+        padding: 8px;
+        font-size: 0.7rem;
+    }
+}
